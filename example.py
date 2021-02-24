@@ -52,7 +52,7 @@ def main():
             print('Option Symbol List not set. Skipping')
             sleep(1)
 
-        # But a filter is better. The syntax is for regular expressions. Get all parameters for winch 0
+        # But a filter is better. The syntax is for regular expressions.
         if option_print_result_sum_read:
             print('################### Result of SUM_READ ########################')
             filter = ['config','machine\[0\]']
